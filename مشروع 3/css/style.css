@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* width: 100%; */
+    height: 500px;
+    background-image: url(../img/download\ \(6\).jpg);
+    background-size: 100% 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    
+}
+header .up {
+    width: 190% !important;
+    position: relative;
+    /* background-color: rgba(68, 68, 68, 0.589); */
+    margin-left: 14%;
+    margin-top: 25%;
+    color: #fff;
+    padding: 10px 30px;
+}
+header .cola{
+    background-color: rgba(68, 68, 68, 0.589);
+    padding: 20px 0;
+    /* padding-left:50%  ; */
+    width: 100%;
+    z-index: 3;
+}
+header .cola h1{
+    text-align: center;
+}
+header .cola p{
+    text-align: center;
+}
+header .buttom{
+    margin-left: 90% !important;
+}
+ nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    color: #fff;
+    background-color: #444;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+ nav h1{
+    margin-left: 20px;
+}
+ nav h1 span{
+    color: rgb(248, 25, 25);
+}
+ 
+ nav .ul1{
+    /* margin-right:20px; */
+    list-style: none;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    right: 20px;
+    /* display: none; */
+}
+nav .ul1 li{
+    font-size: 14px;
+    margin-top: 15px;
+    /* line-height: 60px; */
+    padding: 25px  20px;
+}
+nav .ul1 li:hover{
+    background-color: #f00;
+}
+nav .ul1 li .i1{
+    font-size: 9px;
+}
+nav .ul1 .li1 {
+    /* margin-top: 100px; */
+    color: #fff !important;
+}
+nav .ul1 .li1 .doun{
+    width: 20px;
+    display: none;
+    height: 150px;
+    margin-top: 200px;
+    position: relative;
+    z-index: 2;
+    padding-left: 50px;
+    background-color: #f00;
+}
+nav .ul1 .li1 .doun ul{
+    list-style: none;
+    position: relative;
+    z-index: 2;
+    /* padding-left: 90px; */
+    position: absolute;
+    margin-right: 60px;
+    width: 80px;
+    left: 0;
+
+    background-color: #f00;
+}
+nav .ul1 .li1 .doun ul li{
+padding: 5px;
+
+}
+nav .ul1 .li1:hover .doun{
+    display: block;
+    
+}
+
+nav .ulas i{
+    margin-right: 20px;
+    font-size: 20px;
+    /* margin-top: 50px; */
+    position: n;
+    display:none;
+}
+nav .ulas .list_madia{
+    margin-top: 160px;
+    display: none;
+
+}
+.carousel-control-next {
+    right: -745px;
+}
+.first_sec{
+    padding: 40px 0;
+}
+.sacond_sec{
+    padding: 50px 0;
+    background-color: #ddd;
+}
+.sacond_sec h1{
+    padding-bottom: 20px;
+}
+.third_sec{
+    padding: 50px 0;
+}
+.third_sec img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.forth_sec{
+    padding: 50px 0 ;
+    background-color:#ddd;
+}
+
+.forth_sec .ab{
+    background-color: #fff;
+   /* margin: 1px; */
+    width: 80% !important;
+    padding: 15px 0;
+}
+.forth_sec .ab h2{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding-top: 15px;
+    line-height: 50px;
+    background-color: #ddd;
+    border-radius: 50% 50%;
+}
+.fifth_sec{
+    padding: 50px;
+    background-image: url(../img/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.fifth_sec h1{
+    padding: 10px 0;
+}
+.fifth_sec img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+.sexth_sec{
+    padding: 50px 0;
+    background-image: url(../img/images.jpg);
+    background-size: cover;
+    color: #fff;
+
+}
+.sexth_sec h1:first-of-type{
+    padding: 10px;
+}
+.seventh_sec{
+    padding: 50px 0;
+}
+.seventh_sec h1{
+    padding: 10px 0;
+}
+.ehgth_sec{
+    padding: 60px 0;
+    background-image: url(../img/thumb-apple-macbook-apple-wireless-charging-laptop-modern-technology-modern-computers.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.ehgth_sec input{
+    background-image: url(../img/thumb-apple-macbook-apple-wireless-charging-laptop-modern-technology-modern-computers.jpg);
+    width: 100%;
+    /* color: #fff; */
+    /* border: 1px solid #ddd; */
+    background-size: 0 100% ;
+    /* background-repeat: no-repeat; */
+}
+.ehgth_sec textarea{
+    background-image: url(../img/thumb-apple-macbook-apple-wireless-charging-laptop-modern-technology-modern-computers.jpg);
+    width: 100%;
+    /* color: #fff; */
+    background-size: 0 100% ;
+    height: 32%;
+}
+.ehgth_sec button{
+    width: 100%;
+    height: 20%;
+}
+.ninth_sec{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ninth_sec img{
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;
+}
+footer{
+    padding: 50px 0;
+    background-color: #222;
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .i{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .luct{
+    display: flex ;
+    width: 100%;
+    justify-content: flex-start;
+}
+footer h5{
+    font-size: 15px;
+}
+footer p{
+    font-size: 10px;
+}
+footer .luct img{
+    width: 70px;
+    height: 65px;
+    margin-right: 10px;
+}
+footer  img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.End_sec{
+    background-color: #444;
+    padding: 10px 0;
+    color: #fff;
+}

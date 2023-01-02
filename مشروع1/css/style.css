@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/كيف_أتعلم_الكتابة_على_لوحة_المفاتيح_بسرعة.jpg);
+    background-size: cover;
+}
+header nav{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h4{
+    margin-left: 50px;
+    color: #fff;
+}
+header nav h4 span{
+    color: orangered;
+}
+header nav .list{
+    width: 15%;
+    margin-top: 0%;
+    margin-right: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+}
+header nav .list .list_li{
+    position: absolute;
+    width: 200px;
+    color: #fff;
+    margin: 0;
+    height: 399px;
+    text-align: center;
+    background-color: rgb(56, 22, 22,70%);
+    right: -50px;
+    top: -22px;
+    display: none;
+}
+header nav .list .list_li i{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+header nav .list .list_li ul{
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 38%;
+}
+header nav .list .list_li ul li{
+    padding-top: 50px;
+}
+header nav .list i{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 5px;
+    
+    cursor: pointer;
+}
+header .header h1{
+    color: #fff;
+}
+header .header h1 span{
+    color: orangered;
+}
+header .header p{
+    color: #fff;
+}
+
+header .header .OO{
+    padding:5PX 20PX;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    border: 1PX solid #CCC;
+    display: inline-block;
+    /* background-image: url(../img/كيف_أتعلم_الكتابة_على_لوحة_المفاتيح_بسرعة.jpg); 
+     background-size: 100%; */
+}
+header .header i{
+    cursor: pointer;
+    margin-top: 30px;
+    color: #fff;
+    
+}
+header .header #down-1{
+        display: none;
+   
+    margin-top: 25px;
+    color: #fff;
+   
+}
+header .header .text{
+    display: none;
+    text-align: center;
+}
+.first{
+    padding: 80px 0;
+    
+
+}
+
+.first i{
+    font-size: 50px !important;
+    padding: 20px;
+    border: solid 3px #ccc;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.secand{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/كيف_أتعلم_الكتابة_على_لوحة_المفاتيح_بسرعة.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secand input{
+    width: 25%;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 6px;
+    border: 0;
+}
+.secand button{
+    width: 15%;
+    height: 30px;
+    margin-left: 5px;
+    border: 0;
+    color: #fff;
+    border-radius: 6px;
+    background-color: orangered;
+}
+.therd{
+    padding: 40px 0;
+}
+.therd h3 span{
+    color: orangered;
+}
+.therd .kk{
+    margin: 8px 0   ;
+}
+.furth{
+    padding: 30px 0;
+    background-image: url(../img/اللاب-توب-لا-يعمل-...jpg);
+    background-size: cover;
+    color: #fff;
+}
+.furth img{
+    width: 120px;
+    height: 120px;  
+    margin-left: 46%;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.five{
+    padding: 60px 0;
+}
+.five h1{
+    padding-bottom: 10px;
+}
+
+.five h1 span{
+    color: orangered;
+}
+.five p{
+    margin-bottom: 40px;
+}
+.five img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.five h3{
+    margin: 10px 0;
+}
+
+.five i {
+    padding: 8px;
+    background-color: teal;
+    color: #fff;
+    border-radius: 50%;
+}
+.five p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.sex{
+    padding: 60px 0;
+    background-image: url(../img/طريقة_الكتابة_السريعة_على_الكيبورد.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.sex h1{
+    color: #fff;
+}
+.sex h1 span{
+    color: orangered;
+}
+.sex .bb {
+    margin: auto;
+}
+.sex .bb input{
+    padding: 5px;
+    border: 0;
+    width: 40%;
+    border-radius: 6px;
+}
+.sex .bb textarea{
+    width: 80%;
+    border-radius: 7px;
+}
+.sex .bb .imty{
+    margin: auto;
+    width: 140px;
+    padding: 10px 5px;
+    border: #ccc 1px solid;
+    border-radius: 6px;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+footer h5{
+    margin: 0  10px;
+}
+footer h5 span{
+    color: orangered;
+}

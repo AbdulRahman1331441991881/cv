@@ -1,0 +1,176 @@
+@media(max-width:500px){
+    nav{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav h1{
+        font-size: 20px;
+    }
+    nav ul{
+        padding-top: 10px;
+        width: 100% !important;
+        font-size: 13px;
+    }
+    nav ul li{
+        margin: 0  5px;
+    }
+    .first-sec{
+        width: 100%;
+        height: 540px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 0px !important;
+        /* background-color: yellowgreen; */
+    }
+    .first-sec .first_th{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .first-sec .first_th .th{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 80px 0 !important;
+    }
+        .sacond-sec{
+            width: 70%;
+            /* height: 650px !important; */
+            margin: auto;
+            border-top: #999 solid 1px;
+            padding-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .sacond-sec .pic img{
+        padding-top: 10px;
+        width: 60px !important;
+    }
+    .therd-sec h1{
+        text-align: center;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px !important;
+    }
+    .therd-sec p{
+        text-align: center;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif ;
+        padding-top: 20px;
+        /* font-weight: bold; */
+        font-size: 10px;
+    }
+
+    footer{
+        width: 100%;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #fff;
+    
+        padding: 50px 50px;
+    }
+    footer .laste{
+        width: 100% !important;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer .last1 ,footer .last2 ,footer .last3,footer .last4{
+        width: 100% !important;
+        margin: 10px 0;
+
+    }
+   
+}
+@media(max-width:800px){
+    nav ul{
+        padding-top: 10px;
+        width: 50% !important;
+        font-size: 13px;
+    }
+    .first-sec{
+        width: 100%;
+        height: 600px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 0 0px;
+    }
+    .first-sec .first_th{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .sacond-sec{
+        width: 70%;
+        height: 250px !important;
+        margin: auto;
+        border-top: #999 solid 1px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-sec .first_th .th{
+        width: 30%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .sacond-sec .pic img{
+        padding-top: 10px;
+    }
+    .forth-sec .picturs img{
+    
+        width: 150px !important;
+        height: 150px !important;
+    }
+   
+    footer .laste{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    footer .last1{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+    }
+    footer .last1 .i{
+        margin-top: 20px;
+    }
+    footer .last3{
+        width: 25%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:1024px){
+    .forth-sec .picturs{
+        width: 70% !important;
+        margin: auto;
+        padding: 20px 0;
+    }
+}

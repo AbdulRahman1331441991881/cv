@@ -1,0 +1,103 @@
+@media(max-width:500px){
+    
+    header nav h4{
+        font-size: 15px;
+        margin-left: 20px;
+        color: #000;
+    }
+    /* header nav h4 span{
+        color: #fff;
+
+    } */
+    header nav .list i{
+        font-size: 15px;
+        color: #000;
+        margin-left: 5px;
+        margin-top: -6px;
+    }
+    header nav .list .list_li i{
+        position: absolute;
+        left: 10px;
+        top: 20px !important;
+        font-size: 20px !important;
+        color: #fff;
+    }
+    header nav .list .list_li{
+        position: absolute;
+        width: 200px;
+        color: #fff;
+        margin: 0;
+        height: 395px;
+        text-align: center;
+        background-color: rgb(56, 22, 22,70%);
+        right: -50px;
+        top: -22px;
+        display: none;
+    }
+    header nav .list{
+        width: 15%;
+        margin-top: 0%;
+        margin-right: 30px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        position: relative;
+    }
+    
+    header .header h1{
+        color: #000;
+        font-size: 30px;
+        
+    }
+    header .header p{
+        color: #f00;
+    }
+    .secand{
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/كيف_أتعلم_الكتابة_على_لوحة_المفاتيح_بسرعة.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .secand input{
+        width: 50%;
+        height: 30px;
+        margin-bottom: 5px;
+        margin-right: 0;
+        border-radius: 6px;
+        border: 0;
+    }
+    .secand button{
+        width: 50%;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 0;
+        border: 0;
+        color: #fff;
+        border-radius: 6px;
+        background-color: orangered;
+    }
+    .therd .kk .ss{
+        margin: 8px 0   ;
+    }
+    .furth img{
+        width: 120px;
+        height: 120px;  
+        margin-left: 38%;
+        border-radius: 50%;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer h5{
+        margin: 5px 0;
+    }
+}

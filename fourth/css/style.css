@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px !important;
+}
+
+nav h1 {
+    margin-left: 15px;
+}
+
+nav i {
+    margin-right: 15px;
+    font-size: 30px;
+    display: none !important;
+}
+
+nav .lis {
+    display: none;
+}
+
+nav ul {
+    width: 30%;
+    height: 100%;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.header {
+    background-image: url(../img/download.jpg);
+    background-size: 100% 100%;
+
+    /* height: 500px !important; */
+    /* position: relative !important;
+      z-index: 1 !important; */
+}
+
+.header .skill .sll {
+    width: 70%;
+    height: 50%;
+    margin: 100px auto;
+    color: #fff;
+
+    /* background-color: yellowgreen; */
+    text-align: center;
+}
+
+.header .skill .sll p {
+    font-size: 25px;
+    background-color: #999;
+    margin-top: 20px;
+}
+
+.header .skill .sll button {
+    padding: 15px 25px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.header .skill .sll button:first-of-type {
+    background-color: #999 !important;
+    color: #fff;
+}
+
+.first_sec {
+    padding: 60px 0;
+}
+
+.first_sec h2 {
+    padding-bottom: 30px;
+}
+
+.socant_sec,
+.forth_sec {
+    padding: 30px 0;
+    background-color: #ddd;
+}
+
+.therd_sec {
+    padding: 50px 0;
+}
+
+.therd_sec .bb {
+    margin-top: 20px;
+}
+
+.fifth_sec,
+.sexth_sec {
+    padding: 30px 0;
+}
+
+.fifth_sec img {
+    width: 100%;
+    float: right;
+
+    /* margin-right: 200px; */
+}
+
+.fifth_sec .up {
+    width: 100%;
+    height: 100%;
+    border: 1px #000 solid;
+}
+
+.fifth_sec .up .down,
+.sexth_sec .up .down {
+    border: #000 1px solid;
+    border-left: 0;
+    border-right: 0;
+    width: 100% !important;
+    padding: 0 30px;
+}
+
+.sexth_sec img {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.sexth_sec .up {
+    width: 100%;
+    height: 100%;
+    border: 1px #000 solid;
+}
+
+.saventh_sec {
+    padding: 40px 0;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #888;
+}
